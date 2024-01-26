@@ -6,3 +6,12 @@ def get_colors():
 
 colors = get_colors()
 print(colors)
+
+def get_choices():
+  player_choice = input('Enter a choice (rock, paper, scissors): ')
+  computer_choice = input('Enter a choice (rock, paper, scissors): ')
+  choices = {'playr': player_choice, 'computer': computer_choice}
+
+  return choices
+
+get_choices()
