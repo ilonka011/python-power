@@ -8,4 +8,3 @@ class Person:
     print('Object is being deconstructed!')
 
 p = Person('Lena', 25)
-p2 = Person('Danil', 17)
